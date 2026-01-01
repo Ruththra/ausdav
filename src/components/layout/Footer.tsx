@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
                  </Link>
               <div>
                 <h3 className="font-bold text-xl tracking-tight">AUSDAV</h3>
-                <p className="text-xs text-muted-foreground">Est. 2015</p>
+                <p className="text-xs text-muted-foreground">Est. 1993</p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
@@ -251,7 +251,7 @@ const Footer: React.FC = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="border-t border-border/20 mt-12 pt-8 text-center"
+          className="border-t border-border/20 mt-5 pt-5 text-center"
         >
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} AUSDAV. {t('footer.rights')}
